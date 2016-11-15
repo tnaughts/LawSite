@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get '/services' => 'welcome#services'
+  get '/cases/:id' => 'cases#show', as: "case"
+  get '/contact' => 'welcome#contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,0 +1,8 @@
+ <div class="container">
+ <h1 class="center">Practice Areas</h1>
+	<div class="row" >
+	    <% @cases.each do |area| %>
+	    	<%= render '/welcome/service_description', area: area %>
+	    <% end %>
+	</div>
+</div>
