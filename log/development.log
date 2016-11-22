@@ -6771,3 +6771,27 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-11-22 16:10:27 -0600
+
+
+Started GET "/services" for ::1 at 2016-11-22 16:44:50 -0600
+Processing by WelcomeController#services as HTML
+  [1m[35mCase Load (24.1ms)[0m  SELECT "cases".* FROM "cases"  ORDER BY "cases"."name" ASC
+  Rendered welcome/_service_description.html.erb (2.2ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.4ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.4ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/services.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 139ms (Views: 102.5ms | ActiveRecord: 26.8ms)
+
+
+Started GET "/assets/text.self-d01b581979302ff99d7a7a3fe9b4b547f5fe7dd2909d979cb96ffbe1189fe583.js?body=1" for ::1 at 2016-11-22 16:44:50 -0600
