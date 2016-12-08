@@ -6795,3 +6795,63 @@ Completed 200 OK in 139ms (Views: 102.5ms | ActiveRecord: 26.8ms)
 
 
 Started GET "/assets/text.self-d01b581979302ff99d7a7a3fe9b4b547f5fe7dd2909d979cb96ffbe1189fe583.js?body=1" for ::1 at 2016-11-22 16:44:50 -0600
+
+
+Started GET "/services" for ::1 at 2016-11-22 16:45:44 -0600
+Processing by WelcomeController#services as HTML
+  [1m[36mCase Load (1.1ms)[0m  [1mSELECT "cases".* FROM "cases"  ORDER BY "cases"."name" ASC[0m
+  Rendered welcome/_service_description.html.erb (0.4ms)
+  Rendered welcome/_service_description.html.erb (0.2ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.8ms)
+  Rendered welcome/_service_description.html.erb (0.4ms)
+  Rendered welcome/_service_description.html.erb (0.3ms)
+  Rendered welcome/_service_description.html.erb (0.4ms)
+  Rendered welcome/_service_description.html.erb (0.7ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.8ms)
+  Rendered welcome/_service_description.html.erb (1.0ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/services.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-22 16:46:08 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for ::1 at 2016-11-22 16:46:10 -0600
+Processing by WelcomeController#services as HTML
+  [1m[35mCase Load (2.1ms)[0m  SELECT "cases".* FROM "cases"  ORDER BY "cases"."name" ASC
+  Rendered welcome/_service_description.html.erb (1.6ms)
+  Rendered welcome/_service_description.html.erb (8.6ms)
+  Rendered welcome/_service_description.html.erb (1.0ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.8ms)
+  Rendered welcome/_service_description.html.erb (0.7ms)
+  Rendered welcome/_service_description.html.erb (0.5ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (0.6ms)
+  Rendered welcome/_service_description.html.erb (1.4ms)
+  Rendered welcome/_service_description.html.erb (0.8ms)
+  Rendered welcome/services.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 110ms (Views: 107.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/contact" for ::1 at 2016-11-22 16:46:10 -0600
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-22 16:46:13 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
