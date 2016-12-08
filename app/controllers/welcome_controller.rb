@@ -2,7 +2,7 @@ class WelcomeController < ApplicationController
 	def index
 	end
 	def services
-		@cases = Case.all
+		@cases = Case.order(:name)
 	end
 	def contact
 	end
